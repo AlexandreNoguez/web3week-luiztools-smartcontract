@@ -33,15 +33,15 @@ export default function NewTweet() {
 
   return (
     <>
-      <div className="flex flex-col justify-between max-sm:flex-col">
-        <div className="flex flex-col justify-center items-center">
-          <Image src="/metamask.svg" height={64} width={64} alt="metamask Logo" />
+      <div className="flex justify-center gap-4 max-sm:flex-col">
+        <div className="flex flex-col my-4 items-center">
           <h1>
             Bem vindo de volta!
           </h1>
+          <Image src="/metamask.svg" height={64} width={64} alt="metamask Logo" />
         </div>
-        <div className="flex flex-col justify-center items-center">
-          <p>O que está acontecendo?</p>
+        <div className="flex flex-col my-4 justify-center items-center">
+          <p>No que está pensando?</p>
           <textarea className="my-3"
             value={text}
             onChange={evt => setText(evt.target.value)}
