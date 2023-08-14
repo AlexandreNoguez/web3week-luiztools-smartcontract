@@ -49,7 +49,7 @@ export default function Timeline() {
           content="width=device-width, initial-scale=1"
         />
       </Head>
-      <div className="container">
+      <div className="">
         <div className="">
           <div className="">
             <NewTweet />
